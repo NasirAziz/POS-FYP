@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>POS_FYP</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\icons\employee-icon.png" />
+    <None Remove="assets\icons\icon-customer.png" />
+    <None Remove="assets\icons\icons8-cash-register-100.png" />
+    <None Remove="assets\icons\plus-icon.png" />
+    <None Remove="assets\icons\reports.png" />
+    <None Remove="assets\icons\sale-return-icon.png" />
+    <None Remove="assets\icons\settings-line.png" />
+    <None Remove="assets\icons\stock-icon.png" />
+    <None Remove="assets\icons\supplier-icon.png" />
+    <None Remove="assets\icons\tax.png" />
+    <None Remove="email-icon.png" />
+    <None Remove="lock-icon.png" />
+    <None Remove="Screens\lock-icon.png" />
+    <None Remove="Screens\signin-img.jpg" />
+    <None Remove="signin-img.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\icons\employee-icon.png" />
+    <Resource Include="assets\icons\icon-customer.png" />
+    <Resource Include="assets\icons\icons8-cash-register-100.png" />
+    <Resource Include="assets\icons\plus-icon.png" />
+    <Resource Include="assets\icons\reports.png" />
+    <Resource Include="assets\icons\sale-return-icon.png" />
+    <Resource Include="assets\icons\settings-line.png" />
+    <Resource Include="assets\icons\stock-icon.png" />
+    <Resource Include="assets\icons\supplier-icon.png" />
+    <Resource Include="assets\icons\tax.png" />
+    <Resource Include="email-icon.png" />
+    <Resource Include="lock-icon.png" />
+    <Resource Include="Screens\lock-icon.png" />
+    <Resource Include="Screens\signin-img.jpg" />
+    <Resource Include="signin-img.jpg" />
+  </ItemGroup>
+
+</Project>
